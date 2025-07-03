@@ -42,6 +42,7 @@ export class PostsService {
                     return singlePost
             
                }
+               
 
                 getAllPostsByName=(name:string):PostInterface=>{  
                     console.log(this)
